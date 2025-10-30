@@ -16,14 +16,14 @@ class MyApp extends StatelessWidget {
         body: Column(
           children: [
             const SizedBox(height: 20),
-            // العنوان
+           
             const Text(
               "Profile",
               style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 30),
 
-            // الدائرة (الصورة)
+            
             Container(
               width: 100,
               height: 100,
@@ -43,10 +43,10 @@ class MyApp extends StatelessWidget {
             ),
             const SizedBox(height: 30),
 
-            // القائمة
+            
             Column(
               children: [
-                // My Profile
+                
                 Container(
                   padding: const EdgeInsets.symmetric(
                     horizontal: 40,
@@ -69,7 +69,7 @@ class MyApp extends StatelessWidget {
                     ],
                   ),
                 ),
-                // My Orders
+                
                 Container(
                   padding: const EdgeInsets.symmetric(
                     horizontal: 40,
@@ -92,7 +92,7 @@ class MyApp extends StatelessWidget {
                     ],
                   ),
                 ),
-                // My Favorites
+               
                 Container(
                   padding: const EdgeInsets.symmetric(
                     horizontal: 40,
@@ -115,7 +115,7 @@ class MyApp extends StatelessWidget {
                     ],
                   ),
                 ),
-                // Settings
+             
                 Container(
                   padding: const EdgeInsets.symmetric(
                     horizontal: 40,
@@ -143,7 +143,7 @@ class MyApp extends StatelessWidget {
 
             const Spacer(),
 
-            // خط فاصل
+          
             Container(
               height: 1,
               color: const Color(0xFFE64B63),
@@ -152,7 +152,7 @@ class MyApp extends StatelessWidget {
 
             const SizedBox(height: 10),
 
-            // Log out
+           
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: const [
@@ -167,7 +167,7 @@ class MyApp extends StatelessWidget {
 
             const SizedBox(height: 25),
 
-            // الشريط السفلي
+          
             Container(
               padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 10),
               decoration: const BoxDecoration(
@@ -219,3 +219,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
